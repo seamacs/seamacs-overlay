@@ -15,6 +15,9 @@ LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DOCS=( README.md README.org CHANGELOG.org doclicense.texi )
+RDEPEND="sys-apps/texinfo"
+
+DOCS=( README.md README.org CHANGELOG.org )
+ELISP_TEXINFO="doclicense.texi"
 SITEFILE="50${PN}-gentoo.el"
 
